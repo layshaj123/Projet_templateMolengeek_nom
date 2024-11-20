@@ -137,11 +137,10 @@ ul {
   color: white;
   font-size: small;
   top: 12em;
-  z-index: 3;
 }
 
 .testi {
-  height: 50EM;
+  height: 43EM;
   margin-top: -9EM;
 }
 .testi .carousel-item {
@@ -149,7 +148,84 @@ ul {
   filter: brightness(0.3);
 }
 .testi .carousel-item #im {
-  width: 81%;
+  width: 83%;
+}
+
+.title2 {
+  height: 10EM;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  color: #3983ed;
+  gap: 0.7EM;
+}
+
+.title2 h6, .title2 .h6 {
+  font-size: smalL;
+  background-color: rgba(57, 132, 237, 0.1411764706);
+  width: 8EM;
+  height: 7EM;
+  border-radius: 30PX;
+  padding-top: 0.4EM;
+  font-weight: 700;
+}
+
+.title2 h3, .title2 .h3 {
+  font-weight: 700;
+}
+
+.TR {
+  color: BLACK;
+}
+
+.title2 p {
+  color: #000000;
+}
+
+.services {
+  gap: 1.5EM;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 23EM;
+}
+
+.services2 {
+  gap: 1.5EM;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 22EM;
+  margin-bottom: 3em;
+}
+
+.imgg {
+  margin-left: 7.5rem;
+  background-color: rgb(241, 246, 254);
+  height: 4em;
+  width: 4em;
+  border: rgba(57, 132, 237, 0.3450980392) solid 1px;
+  align-items: center;
+  border-radius: 3PX;
+}
+
+.imgg img {
+  margin-top: 0.9em;
+  color: #3983ed;
+}
+
+.card {
+  display: flex;
+  gap: 2EM;
+}
+
+.card p {
+  font-size: small;
+  color: #666565;
 }
 
 /*!
