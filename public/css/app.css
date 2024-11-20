@@ -60,7 +60,7 @@ header ul {
 
 .nav-link2 {
   font-weight: 600;
-  margin-left: -15EM;
+  margin-left: -16.4EM;
   font-size: 2EM;
   text-decoration: none;
 }
@@ -108,7 +108,7 @@ ul {
 
 .fef {
   border: solid 0PX;
-  height: 13em;
+  height: 14em;
   width: 14EM;
   border-radius: 10px;
   box-shadow: rgba(149, 149, 149, 0.2235294118) 0 0 10PX;
@@ -126,10 +126,30 @@ ul {
 }
 
 .ct {
-  height: 30EM;
+  height: 17EM;
   display: flex;
   gap: 1.5em;
   margin-left: 2EM;
+}
+
+.carousel {
+  text-align: center;
+  color: white;
+  font-size: small;
+  top: 12em;
+  z-index: 3;
+}
+
+.testi {
+  height: 50EM;
+  margin-top: -9EM;
+}
+.testi .carousel-item {
+  height: 34.5EM;
+  filter: brightness(0.3);
+}
+.testi .carousel-item #im {
+  width: 81%;
 }
 
 /*!
