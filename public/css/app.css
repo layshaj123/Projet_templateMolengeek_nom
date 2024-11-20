@@ -73,6 +73,32 @@ ul {
   margin-right: 17.5EM;
 }
 
+.fef {
+  border: solid 0PX;
+  height: 13em;
+  width: 14EM;
+  border-radius: 10px;
+  box-shadow: rgba(149, 149, 149, 0.2235294118) 0 0 10PX;
+  padding: 1.5EM;
+  padding-right: 1EM;
+}
+
+.fef p {
+  font-size: small;
+  color: #676565;
+}
+
+.fef img {
+  padding-bottom: 1EM;
+  border-radius: 50%;
+}
+
+.ct {
+  height: 30EM;
+  display: flex;
+  gap: 1.5em;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
