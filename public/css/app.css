@@ -231,8 +231,8 @@ ul {
 .divv {
   background-color: rgb(241, 246, 254);
 }
+
 .divvv {
-  justify-content: center;
   gap: 2EM;
   display: flex;
 }
@@ -242,13 +242,26 @@ ul {
   box-shadow: 0 0 10PX rgba(41, 124, 241, 0.2784313725);
 }
 
+.divv .card h4, .divv .card .h4 {
+  font-weight: 700;
+  font-size: medium;
+  margin-top: -1.9em;
+  text-align: justify;
+}
+
+.divv .card p {
+  font-size: small;
+  color: gray;
+  text-align: justify;
+}
+
 .title3 p {
   color: #000000;
   font-size: small;
 }
 
 .title3 {
-  height: 45em;
+  height: 40em;
   background-color: rgb(241, 246, 254);
   display: flex;
   justify-content: center;
