@@ -402,6 +402,45 @@ textarea {
   border-radius: 5px;
 }
 
+footer {
+  position: relative;
+  top: 40vh;
+  background-color: rgb(241, 246, 254);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.de {
+  margin-right: -70rem;
+  margin-bottom: -3vh;
+}
+
+.ed {
+  margin-left: -53rem;
+  margin-bottom: -3vh;
+}
+
+footer span {
+  color: #3983ed;
+}
+
+footer p {
+  color: gray;
+  font-size: small;
+}
+
+.r {
+  color: black;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
