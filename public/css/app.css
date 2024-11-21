@@ -106,30 +106,18 @@ ul {
   color: BLACK;
 }
 
-.fef {
-  border: solid 0PX;
-  height: 14em;
-  width: 14EM;
-  border-radius: 10px;
-  box-shadow: rgba(149, 149, 149, 0.2235294118) 0 0 10PX;
-  padding: 1.5EM;
-  padding-right: 1EM;
-}
-
-.fef p {
-  font-size: small;
-  color: #676565;
-}
-
-.fef img {
-  padding-bottom: 1EM;
-}
-
-.ct {
-  height: 17EM;
+.ct1 {
   display: flex;
-  gap: 1.5em;
-  margin-left: 2EM;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.ct1 .card {
+  border: solid 0px;
+  box-shadow: 0 0 20PX rgba(171, 199, 220, 0.3490196078);
+  padding: 0.2rem;
+  margin-bottom: 4vh;
+  height: 22VH;
 }
 
 .carousel {
@@ -334,7 +322,7 @@ title3 p {
   text-align: center;
   width: 15rem;
   border: 0PX solid;
-  box-shadow: 0 0 10PX #d5d1d1;
+  box-shadow: 0 0 30PX rgba(213, 209, 209, 0.5019607843);
 }
 
 .ct .card img {
@@ -362,7 +350,7 @@ title3 p {
   text-align: center;
   width: 15rem;
   border: 0PX solid;
-  box-shadow: 0 0 10PX #d5d1d1;
+  box-shadow: 0 0 30PX rgba(219, 218, 218, 0.568627451);
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -404,7 +392,7 @@ textarea {
 
 footer {
   position: relative;
-  top: 40vh;
+  top: 5vh;
   background-color: rgb(241, 246, 254);
   height: 10vh;
   display: flex;
