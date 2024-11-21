@@ -43,6 +43,24 @@ header ul {
   margin-left: 21em;
 }
 
+@media (max-width: 1024px) {
+  header {
+    width: 117%;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    width: 154%;
+  }
+  .op ul {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    width: 278%;
+  }
+}
 .nav .justify-content-center a {
   color: black;
 }
@@ -73,6 +91,35 @@ ul {
   margin-right: 17.5EM;
 }
 
+@media (max-width: 1024px) {
+  .nav-link2 {
+    margin-left: 0EM;
+  }
+  .nav {
+    gap: 2EM;
+    margin-right: 0EM;
+  }
+}
+@media (max-width: 768px) {
+  .nav-link2 {
+    margin-right: 1em;
+  }
+  .nav {
+    gap: 2EM;
+    margin-right: -7EM;
+    margin-left: em;
+  }
+}
+@media (max-width: 425px) {
+  .nav-link2 {
+    margin-right: 1em;
+  }
+  .nav {
+    gap: 2EM;
+    margin-right: -20EM;
+    margin-left: em;
+  }
+}
 .div {
   height: 2EM;
 }
@@ -120,6 +167,11 @@ ul {
   height: 22VH;
 }
 
+@media (max-width: 425px) {
+  main {
+    margin-right: -47.5rem;
+  }
+}
 .carousel {
   text-align: center;
   color: white;
@@ -139,6 +191,18 @@ ul {
   width: 83%;
 }
 
+@media (max-width: 1024px) {
+  .frf {
+    width: 50rem;
+    margin-left: 13rem;
+  }
+}
+@media (max-width: 768px) {
+  .frf {
+    width: 50rem;
+    margin-left: 12rem;
+  }
+}
 .title2 {
   height: 10EM;
   display: flex;
@@ -395,6 +459,7 @@ footer {
   top: 5vh;
   background-color: rgb(241, 246, 254);
   height: 10vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -429,6 +494,59 @@ footer p {
   color: black;
 }
 
+@media (max-width: 1024px) {
+  footer {
+    margin-right: 0em;
+  }
+  .de {
+    margin-right: -20rem;
+    margin-bottom: -3vh;
+  }
+  .ed {
+    margin-left: 0rem;
+    margin-bottom: -3vh;
+  }
+  footer {
+    width: 117%;
+  }
+  footer ul {
+    list-style: none;
+    display: flex;
+    gap: 35REM;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1024px) and (max-width: 768px) {
+  footer {
+    width: 154%;
+  }
+  .de {
+    margin-right: -20rem;
+  }
+  .ed {
+    margin-left: -8rem;
+  }
+}
+@media (max-width: 425px) {
+  footer {
+    width: 278%;
+  }
+}
+@media (max-width: 1024px) {
+  main {
+    margin-right: -11em;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    margin-right: -26em;
+  }
+}
+@media (max-width: 425px) {
+  main {
+    margin-right: -47.5rem;
+  }
+}
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors

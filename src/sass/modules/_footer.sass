@@ -4,6 +4,7 @@ footer
     top: 5vh
     background-color: rgb(241,246,254)
     height: 10vh
+    width: 100%
     display: flex
     justify-content: center
     align-items: center
@@ -25,3 +26,31 @@ footer p
     font-size: small
 .r
     color: black
+@media  (max-width: 1024px  )
+    footer
+        margin-right: 0em
+    .de
+        margin-right: -20rem
+        margin-bottom: -3vh
+    .ed
+        margin-left: 0rem
+        margin-bottom: -3vh
+    footer 
+        width: 117%
+    footer ul
+        list-style: none
+        display: flex
+        gap: 35REM
+    
+        justify-content: space-around
+    @media  (max-width: 768px  )
+        footer
+            width: 154%
+        .de
+            margin-right: -20rem
+           
+        .ed
+            margin-left: -8rem
+@media  (max-width: 425px  )
+    footer
+        width: 278%
