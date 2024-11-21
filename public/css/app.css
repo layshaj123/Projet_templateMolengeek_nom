@@ -290,6 +290,118 @@ ul {
   color: BLACK;
 }
 
+title3 p {
+  color: #000000;
+  font-size: small;
+}
+
+.title4 {
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  color: #3983ed;
+  gap: 0.7EM;
+}
+
+.title4 h6, .title4 .h6 {
+  font-size: smalL;
+  background-color: rgba(57, 132, 237, 0.1411764706);
+  width: 8EM;
+  height: 2EM;
+  border-radius: 30PX;
+  padding-top: 0.4EM;
+  font-weight: 700;
+}
+
+.title4 h3, .title4 .h3 {
+  font-weight: 700;
+}
+
+.TR {
+  color: BLACK;
+}
+
+.title4 p {
+  color: black;
+}
+
+.ct .card {
+  border-radius: 0%;
+  height: 11rem;
+  text-align: center;
+  width: 15rem;
+  border: 0PX solid;
+  box-shadow: 0 0 10PX #d5d1d1;
+}
+
+.ct .card img {
+  border-radius: 50%;
+  border: #3983ed 2PX dotted;
+}
+
+.ct {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.ctt {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ctt .card {
+  padding: 1rem;
+  border-radius: 0%;
+  height: 23rem;
+  text-align: center;
+  width: 15rem;
+  border: 0PX solid;
+  box-shadow: 0 0 10PX #d5d1d1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.tt {
+  border: solid 0.9px;
+  color: #9c9c9c;
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 0%;
+}
+
+.ttt {
+  width: 30.7rem;
+  height: 2.5REM;
+  border-radius: 0%;
+  border: solid 0.9px;
+  color: #9c9c9c;
+}
+
+textarea {
+  border: solid 0.9px;
+  color: #9c9c9c;
+  width: 30.7rem;
+  height: 8REM;
+  border-radius: 0%;
+}
+
+.tttt {
+  background-color: #3983ed;
+  border: solid 0px;
+  color: white;
+  margin-top: 0.7em;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 5px;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
