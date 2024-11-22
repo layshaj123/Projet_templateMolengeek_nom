@@ -196,7 +196,7 @@ ul {
   .ct1 .card {
     width: 50rem;
     text-align: center;
-    height: 40VH;
+    height: 30em;
   }
   .ct1 .card h5, .ct1 .card .h5 {
     font-size: 2em;
@@ -206,6 +206,9 @@ ul {
   }
   .ccc {
     display: flex;
+  }
+  .ct1 .card img {
+    margin-top: 5em;
   }
 }
 .carousel {
